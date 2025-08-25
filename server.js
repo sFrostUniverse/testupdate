@@ -14,11 +14,13 @@ const latestUpdate = {
 
 // API endpoint for update check
 app.get("/latest", (req, res) => {
+  console.log(`[DEBUG] /latest endpoint was called from ${req.ip}`);
   res.json(latestUpdate);
 });
 
 // Health check (optional)
 app.get("/", (req, res) => {
+  console.log("[DEBUG] Root endpoint (/) was called ✅");
   res.send("✅ TestUpdate API is running!");
 });
 
