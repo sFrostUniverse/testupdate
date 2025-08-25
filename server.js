@@ -9,7 +9,7 @@ app.use(express.json());
 // Example data (this should be your latest APK info)
 const latestUpdate = {
   version: "1.0.8", // the latest version you want to serve
-  url: "https://example.com/frostupdate.apk" // direct link to your APK
+  url: "https://github.com/sFrostUniverse/FrostUpdate/blob/main/releases/app-release.apk" // direct link to your APK
 };
 
 // API endpoint for update check
