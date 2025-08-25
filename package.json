@@ -1,0 +1,13 @@
+{
+  "name": "testupdate",
+  "version": "1.0.0",
+  "description": "Backend for FrostUpdate test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2"
+  }
+}
